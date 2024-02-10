@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>fox Foto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="code/javascript.js" defer></script>
+		<script src="code/jquery-3.6.0.min.js"></script>
+		<script>
+			$(function(){
+				$("#includedContent").load("collages/collage_index.html"); 
+			});
+		</script> 
+	</head>
+	<body>
+
+		<!-- menu bar portion starts here! -->
+		<div class="titlebar">
+			<img class="titlelogo" src="img/logo_w.png">
+			<div class="titleogol"></div>
+			<a class="menubutton" href="index.html"><h1 class="titletext">fox Foto</h1></a>
+		</div>
+		<div class="menubar">
+			<a class="menubutton" href="gallery.html">gallery</a>
+			|
+			<a class="menubutton" href="articles.html">articles</a>
+			|
+			<a class="menubutton" href="aboutme.html">about me</a>
+		</div>
+		<!-- menu bar portion ends here! -->
+
+		<div id="wrapper">
+			<div class="divider top"><h1>welcome</h1></div>
+			<div class="homelayout">
+				<div id="includedContent"></div><!-- linked to an external HTML file for easier content management -->
+				<div class="article home">
+					<a href="fullimg/selfie.jpg"><img class="inline left home" src="img/selfie.jpg" title="taken 2021-07-22" alt="Josiah taking a selfie with his face obscured by the website logo."></a>
+					
+					<p>hello visitor, and welcome to my site! My name is Josiah Fox and all the photos here are my work!</p>
+					
+					<p>this website will serve as my photography portfolio. Please, take a minute to look around! Navagate to the <a href="gallery.html">gallery</a> for more images, the <a href="articles.html">articles section</a> for my blog, the <a href="aboutme.html">about me section</a> for contact information</p>
+
+					<p>i hope you enjoy yourself! (photos may not be used without explicit permission)</p>
+					
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="divider"></div>
+		</div>
+	</body>
+</html>
