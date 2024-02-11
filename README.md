@@ -1,2 +1,2 @@
 # foxFoto
-a personal photography webstie
+a personal photography website
